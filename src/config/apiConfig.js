@@ -11,7 +11,7 @@ const getBaseUrl = () => {
 // API Endpoints
 export const API_ENDPOINTS = {
   // Authentication
-  residentLogin: `${getBaseUrl()}/nhc-login`,
+  residentLogin: `${getBaseUrl()}/welfare/login`,
   
   // Resident Operations
   getResidents: `${getBaseUrl()}/nhc-residents`,
