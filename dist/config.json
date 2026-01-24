@@ -99,13 +99,13 @@
       "adminOnly": false,
       "allowReplies": true,
       "maxMessageLength": 2000,
-      "categories": ["Sunday Service", "Mid-Week", "Youth", "Women", "Men", "Children"],
+      "categories": ["Sunday Service", "Mid-Week", "Youth", "Women", "Men", "Sunday School"],
       "recipientOptions": ["all", "cell"],
       "allowAnonymous": false,
       "sundayServiceTimes": [
         { "id": "9am", "label": "First Service - 9:00 AM", "defaultPdfUrl": "", "defaultYoutubeUrl": "" },
-        { "id": "10am", "label": "Second Service - 10:30 AM", "defaultPdfUrl": "", "defaultYoutubeUrl": "" },
-        { "id": "12pm", "label": "Third Service - 12:00 PM", "defaultPdfUrl": "", "defaultYoutubeUrl": "" }
+        { "id": "10am", "label": "English Service - 10:00 AM", "defaultPdfUrl": "", "defaultYoutubeUrl": "" },
+        { "id": "12pm", "label": "Swahili Service - 12:00 PM", "defaultPdfUrl": "", "defaultYoutubeUrl": "" }
       ]
     },
     "announcements": {
@@ -175,7 +175,7 @@
     "tagline": "Growing in Faith Together",
     "verseOfTheDay": false,
     "serviceTimes": [
-      {"day": "Sunday", "time": "8:00 AM & 10:30 AM", "name": "Sunday Services"},
+      {"day": "Sunday", "time": "8:00 AM & 10:00 AM", "name": "Sunday Services"},
       {"day": "Wednesday", "time": "6:00 PM", "name": "Mid-Week Service"},
       {"day": "Friday", "time": "6:00 PM", "name": "Youth Service"}
     ],

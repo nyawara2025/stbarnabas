@@ -44,8 +44,8 @@ export const API_ENDPOINTS = {
   getActiveShops: `${getBaseUrl()}/nhc-active-shops`,
 
   // Broadcast Operations
-  getBroadcasts: `${getBaseUrl()}/welfare-broadcasts`,
-  createBroadcast: `${getBaseUrl()}/welfare-create-broadcast`,
+  getBroadcasts: `${getBaseUrl()}/nhc-broadcasts`,
+  createBroadcast: `${getBaseUrl()}/nhc-create-broadcast`,
   markBroadcastRead: `${getBaseUrl()}/nhc-broadcast-read`,
   getPhases: `${getBaseUrl()}/nhc-phases`,
   getBlocks: `${getBaseUrl()}/nhc-blocks`,
@@ -74,8 +74,8 @@ export const WEBHOOK_PATHS = {
   getAnnouncements: 'nhc-announcements',
   paymentCallback: 'nhc-payment-callback',
   getActiveShops: 'nhc-active-shops',
-  getBroadcasts: 'welfare-broadcasts',
-  createBroadcast: 'welfare-create-broadcast',
+  getBroadcasts: 'nhc-broadcasts',
+  createBroadcast: 'nhc-create-broadcast',
   markBroadcastRead: 'nhc-broadcast-read',
   getPhases: 'nhc-phases',
   getBlocks: 'nhc-blocks',
